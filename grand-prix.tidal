@@ -1,0 +1,12 @@
+
+
+-- GRAN PRIX
+hush
+
+setcps (140/60/4)
+
+d1 $ slow 1 $ n (scale "major" ("-1" + "[1 ~ 1 8 5 1] 1") + "<e2 f3 a3>") # s "superpiano"
+
+d2 $ slow 1 $ n (scale "minor" ("[-1,2,5]" + "1 [4 5 2 5 7 5]") + "<e4 f4 a4>") # s "superpiano"
+
+d4 $ sound "[bd ~ bd cp bd ~ bd ~ bd cp ~ ~ , hh*6]"

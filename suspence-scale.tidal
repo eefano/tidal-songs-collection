@@ -1,0 +1,10 @@
+
+hush
+
+setcps (140/60/4)
+
+let tone = "g4"
+
+d2 $ slow 4 $ n (scale "major" ("1 -2 0 -3") + tone + "-12") # s "supersquare" # amp 0.8
+
+d3 $ fast 1.2 $ n (scale "major" ("[-6,1,4]" + "1 4 5 2 3") + tone) # s "supersaw"

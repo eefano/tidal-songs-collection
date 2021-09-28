@@ -1,0 +1,16 @@
+
+
+-- STRANGE THINGS
+hush
+
+setcps (140/60/4)
+
+d1 $ slow 1 $ stack [
+                        arp "<updown>" $ n ("e3'maj7'5")
+                        --,arp "<updown>" $ n ("e3'maj7'5 gs2'min'5ii")
+                        --,slow 1 $ arp "<pinkyupdown>" $ n ("e5'maj7'3")
+                        ]
+  # sound "supersaw"
+  # room 0.5
+
+d2 $ n ("gs3*8") # s "supersquare" # amp 0.8 # legato 0.8

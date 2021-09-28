@@ -1,0 +1,23 @@
+
+-- BIG SHIP
+hush
+
+setcps (120/60/4)
+
+d1 $ slow 10 $ n "a5'min'3 a4'min'3ii d5'maj'3i f5'maj'3 a4'min'3ii d5'maj'3i_2 \
+                \a5'min'3 a4'min'3ii as4'maj'3ii a4'min'3ii e5'maj'3_2 \
+                \c5'maj'3i f5'maj'3 a4'min'3ii d5'maj'3i_4"
+                 # legato 1.05
+                 # sound "supersaw"
+
+d2 $ slow 10 $ n "a3*8_2 d3*4 f3*4 a3*4 d3*8_2 \
+                 \a3*8_2 as3*4 a3*4 e3*8_2 \
+                 \c3*4 f3*4 a3*4 d3*16_4"
+# sound "supersquare" # legato 0.9 # amp 1
+
+d4 $ slow 10 $ sound "[[bd ~ cp [bd cp] bd bd cp bd]!3]_24\
+                    \[cp cp]!4\
+                    \[bd bd cp [bd cp] bd bd cp bd]_8\
+                    \[bd bd cp [bd cp] [cp cp]!4]_8\
+                    \[[bd bd cp [~ cp]]!9]_36"
+# amp 1

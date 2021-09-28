@@ -1,0 +1,15 @@
+
+-- CARNE
+
+hush
+
+setcps (140/60/4)
+
+d1 $ slow 25 $ n "cs4'min'3i_7 fs4'min'3_6 gs4'min'3_6 a3'maj'3iii_6 \
+                \cs4'min'3i_7 fs4'min'3_6 gs4'min'3_6 a3'maj'3iii_6 \
+                \cs4'min'3i_7 fs4'min'3_6 gs4'min'3_6 a3'maj'3iii_6 "
+                 # legato 1.01
+                 # sound "supersaw"
+
+
+d4 $ slow 25 $ sound "cp*75"

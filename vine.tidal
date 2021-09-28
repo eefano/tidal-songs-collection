@@ -1,0 +1,14 @@
+
+
+--VINE
+hush
+
+setcps (150/60/4)
+
+d1 $ slow 4 $ n "d5'min'2iii*8 g5'maj'2ii*8 a4'maj'2iii*8 g5'maj'2*8" # sound "supersaw"
+
+d1 $ slow 4 $ n "[f5 d5]*4 [g5 b4]*4 [e5 cs5]*4 [g5 b4]*4 " # sound "supersaw" # legato 0.5
+
+d3 $ slow 4 $ n ("d3*8 b2*8 a2*8 g2*8 ") # s "supersquare" # amp 0.8 # legato 0.9
+
+d4 $ fast 1 $ sound "{bd ~ cp ~ bd bd cp ~ , hh}"

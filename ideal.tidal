@@ -1,0 +1,29 @@
+
+-- IDEAL
+hush
+
+setcps (218/60/4)
+
+d1 $ fast 2 $ n ("[0,4,7]" + "<a4 g4 f4 g4>") # sound "supersaw"
+
+d1 $ slow 2 $ n "a5'maj'3 g5'maj'3 f5'maj'3 g5'maj'3" # sound "supersaw"
+
+d2 $ slow 2 $ n "a3'5'2*8" # sound "supersquare" # legato 0.7 # amp 0.5
+
+
+d1 $ slow 7 $ n "d5'maj'3 c5'maj'3 e5'maj'3 c5'maj'3 \
+                \d5'maj'3 a4'maj'3 c5'maj'3 b4'min'3 \
+                \e5'maj'3 c5'maj'3 d5'maj'3 e5'maj'3 \
+                \c5'maj'3 d5'maj'3" # sound "supersaw" # amp 0.2
+
+d2 $ slow 7 $ n ("fs6 d6 ~ ~ e6 c6 ~ ~ gs6 e6 ~ ~ c6 e6 ~ ~ \
+                \fs6 d6 ~ ~ cs6 e6 ~ ~ g6 c6 ~ ~ d6 fs6 ~ ~ \
+                \gs6 e6 ~ ~ c6 e6 ~ ~ fs6 d6 ~ ~ gs6 e6 ~ ~  \
+                \c6 e6 ~ ~ fs6 d6 ~ ~") # s "supersquare" # amp 0.5 # legato 0.8
+
+d4 $ fast 2 $ sound "bd cp"
+
+
+d1 $ fast 2 $ n ("[0,4,7]" + "[gs4 gs4 cs5 gs4 b4 b4 g4 g4]/8") # sound "supersaw"
+
+d1 $ slow 2 $ n "b4'maj'3" # sound "supersaw"

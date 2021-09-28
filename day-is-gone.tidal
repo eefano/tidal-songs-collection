@@ -1,0 +1,24 @@
+
+
+-- DAY IS GONE
+hush
+
+setcps (143/60/4)
+
+
+d1 $ slow 10 $ n "[f4'maj'3ii [g4'sus4'3i_2 g4'maj'3i_3] cs4'maj'3ii ds4'maj'3ii]*4" # sound "supersaw" # amp 0.3
+
+d3 $ slow 10 $ n "[f3*5 g3*5 cs3*5 ds3*5]*4" # sound "supersquare" # amp 0.8
+
+
+--d1 $ arp "up" $ slow 10 $ n "[d4'min'5ii d4'min'5ii d4'min'5ii d4'min'5ii]*4" # sound "supersaw"
+d1 $ slow 10 $ n "[d4'min'3i c4'maj'3i g3'maj'3i as3'6'3ii]*4" # sound "supersaw"
+
+d3 $ slow 10 $ n "[d3*5 c3*5 b2*5 as2*5]*4" # sound "supersquare" # amp 0.8
+
+
+--d6 $ slow 10 $ n ("[[15,19] [12,17] [15,19] ~ [15,19]]*16 " + "d5") # sound "supersquare"
+d2 $ slow 10 $ n ("[0 7 3 12 7 15 12 19]*5" + "d5") # sound "supersquare"
+
+
+d4 $ slow 10 $ sound "[[bd,sn] ~ cp bd cp bd cp bd cp bd]*8" # amp 0.8
