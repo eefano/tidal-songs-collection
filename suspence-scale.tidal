@@ -1,10 +1,12 @@
 
 hush
 
-setcps (140/60/4)
+setcps (110/60/4)
 
-let tone = "g4"
+let tone = "a4"
 
-d2 $ slow 4 $ n (scale "major" ("1 -2 0 -3") + tone + "-12") # s "supersquare" # amp 0.8
+d2 $ slow 4 $ n (scale "major" ("1 -2 0 -3") + tone + "-12") # s "supersaw" # amp 0.8
 
-d3 $ fast 1.2 $ n (scale "major" ("[-6,1,4]" + "1 4 5 2 3") + tone) # s "supersaw"
+d3 $ fast 1.8 $ n (scale "major" ("[-6,1,4]" + "1 4 5 2 3") + tone) # s "superpiano" # amp 0.8
+
+d1 $ slow 8 $ n (scale "major" ("1 [5 6] 2 [6 6 4] 7 [-2 -4] 0 -3") + tone + "12" ) # s "supersquare" # amp 0.4
