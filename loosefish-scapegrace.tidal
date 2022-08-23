@@ -1,0 +1,22 @@
+
+hush
+
+setcps (180/60/4)
+
+let tone = "c4"
+
+let changes = "[0 2]" + "<0 3 6 9 12 15 18 21>"
+
+
+d2 $ slow 2 $ n ("[c6'maj'3]" + changes)   # s "superhammond" # amp 0.2
+
+d3 $ slow 2 $ n ("c4" + scale "major" "0 2 4 7 7 4 2 0" + changes)   # s "supervibe" # amp 0.8
+
+
+d1 $ n (slow 2 $ fmap (*7) $ run 8) 
+  # s "supergong" 
+  # decay "[1 0.2]/4" 
+  # voice "[0.5 0]/8" 
+
+    d1 $ slow 2 $ n "[0 1 [0 0*2] 1, 2*8]" # sound "drum" # amp 1
+    

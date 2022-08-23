@@ -21,7 +21,7 @@ d2 $ slow 7 $ n ("fs6 d6 ~ ~ e6 c6 ~ ~ gs6 e6 ~ ~ c6 e6 ~ ~ \
                 \gs6 e6 ~ ~ c6 e6 ~ ~ fs6 d6 ~ ~ gs6 e6 ~ ~  \
                 \c6 e6 ~ ~ fs6 d6 ~ ~") # s "supersquare" # amp 0.5 # legato 0.8
 
-d4 $ fast 2 $ sound "bd cp"
+d4 $ fast 2 $ n "[[0 0] 1]" # s "drum"
 
 
 d1 $ fast 2 $ n ("[0,4,7]" + "[gs4 gs4 cs5 gs4 b4 b4 g4 g4]/8") # sound "supersaw"

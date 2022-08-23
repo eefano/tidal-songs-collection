@@ -1,0 +1,27 @@
+
+hush
+
+setcps (120/60/4)
+
+
+d1 $ slow 12 $ n "[[b4'maj'4*4] \
+                 \[fs4'maj'4*2 a4'maj'4*2] \
+                 \[c4'maj'4i*2 g4'maj'4*2] \ 
+                 \[d4'maj'4*2 cs4'maj'4i*2] \ 
+                 \[gs4'maj'4*2 a4'maj'4*2] \ 
+                 \[b4'maj'4*2 cs4'maj'4*2] \ 
+                 \[f4'min'4*2 as4'maj'4*2] \ 
+                 \[e4'maj'4*2 a4'maj'4*2] \
+                 \[[as4'maj'4 as4'maj'4] f4'min'4*2] \ 
+                 \[[e3 e4'maj'4] [fs3 fs4'maj'4]] \ 
+                 \[[e3 e4'maj'4] [fs3 fs4'maj'4]] \ 
+                 \]" # sound "superpiano" # amp 0.3
+
+-- WORK IN PROGRESS
+d2 $ slow 12 $ n "[[b5,fs6]*3 [[b5,fs6] [~ ~ fs6]] [fs6 fs6 fs6] [[fs6 e6 ~] e6] \
+       \[e6 e6 [e6 fs6]] [[g6 ~ d6] d6] [d6 d6 [e6 fs6]] \
+       \[gs6 f6 cs6] gs5 [c6 d6 g6] [a6 a6 a6] [a6 c6 g5] a5 \
+       \[e6 e6 g6] [a6 c6 g5] [c6 d6 g6] [a6 c6 g5] a5 \ 
+       \ e5 fs5 e5 fs5 \
+       \]" # sound "superhammond" # legato 0.9 # amp 0.4
+
