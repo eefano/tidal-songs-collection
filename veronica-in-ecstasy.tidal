@@ -14,7 +14,7 @@ d1 $ slow 11 $ n "\
        \[e4'maj'4*2 a4'maj'4*2] \ 
        \[b4'maj'4*2 cs4'maj'4*2] \ 
        \[f4'min'4*2 as4'maj'4*2] \ 
-       \[e4'maj'4*2 a3'maj'4ii*2] \
+       \[e4'maj'4*2 a4'maj'4*2] \
        \[as4'maj'4*2 f4'min'4*2] \ 
        \[[e3 e4'maj'4] [[~ ~ fs3] fs4'maj'4]] \ 
        \[[e3 e4'maj'4] [[~ ~ fs3] fs4'maj'4]] \ 
