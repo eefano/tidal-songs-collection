@@ -5,10 +5,10 @@ setcps (180/60/4)
 
 let tone = "c4"
 
-let changes = "<[0 -1] [0 1]>" + "<0 -1 -2 -3>"
+let changes = "<[0 -1] [0 1]>" + "<0 -1 -3 -2>"
 
 
-d3 $ slow 2 $ n ("g6" + scale "dorian" "[[0*3 2*2 4*3 5 2*3 0],[[-3,-5]*5 [-2,-4]*3]]" + changes)   # s "superhammond" # legato 0.93 # amp 0.4
+d3 $ slow 2 $ n ("f4" + scale "locrian" "[[0*3 2*2 4*3 5 2*3 0],[[-3,-5]*5 [-2,-4]*3]]" + changes)   # s "superhammond" # legato 0.43 # amp 0.6
 
 d1 $ slow 2 $ n "[[0 1 [0 0] 1 [<0 1> 1] [~ 0] <1 0> <1 0 0> 1], 2*6]" # sound "drum" # amp 1
     

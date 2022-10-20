@@ -1,0 +1,10 @@
+
+hush
+
+setcps (126/60/4)
+
+d4 $ "cp*4"
+
+d1 $ slow 10 $  n "fs5_3 d5_4 g5_3 g5_3  gs5_3 f5_3  ds5_3 e5_3 cs5_3 b4_3 gs4_3 \
+\ gs5_3 gs5_2 a5_3 fs5_3 fs5_3 g5_3" # s "supersquare" # amp 0.2
+
