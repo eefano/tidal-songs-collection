@@ -10,7 +10,7 @@ d4 $ slow 2 $ n "[[cs5 ~]*2 [d5 ~]*2 [b4 e5] cs5 [a4 d5]  b4 ]" # sound "supersq
 
 d1 $ slow 2 $ n "[fs4'min'3 d4'maj'3 e4'maj'3 fs4'min'3 d4'maj'3 e4'maj'3]" # sound "supersaw" # amp 0.6
 
-d1 $ fast 1 $ n "[b4'min'3ii fs4'maj'3ii]" # sound "supersaw" # amp 0.1
+d1 $ fast 1 $ n "[b4'min'3'ii fs4'maj'3'ii]" # sound "supersaw" # amp 0.1
 
 
-d1 $ slow 4 $ n "[d4'maj'3ii*2 a4'maj'3*2 e4'maj'3ii*2 b3'maj'3ii*2] fs4'maj'3i" # sound "supersaw" # amp 0.4
+d1 $ slow 4 $ n "[d4'maj'3'ii*2 a4'maj'3*2 e4'maj'3'ii*2 b3'maj'3'ii*2] fs4'maj'3'i" # sound "supersaw" # amp 0.4

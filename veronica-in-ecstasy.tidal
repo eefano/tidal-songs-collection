@@ -9,8 +9,8 @@ d3 $ sound "cp*4"
 d1 $ slow 11 $ n "\
        \[[b4'maj'4*4] \
        \[fs4'maj'4*2 a4'maj'4*2] \
-       \[c4'maj'4i*2 g4'maj'4*2] \ 
-       \[d4'maj'4*2 cs4'maj'4i*2] \ 
+       \[c4'maj'4'i*2 g4'maj'4*2] \ 
+       \[d4'maj'4*2 cs4'maj'4'i*2] \ 
        \[e4'maj'4*2 a4'maj'4*2] \ 
        \[b4'maj'4*2 cs4'maj'4*2] \ 
        \[f4'min'4*2 as4'maj'4*2] \ 
@@ -32,5 +32,5 @@ d2 $ slow 11 $ n "\
        \[d6 as5 f5] [[gs5 ~] gs5] \ 
        \~ ~ \
        \~ [~ [~ ~ fs6]] \
-\]" # sound "supersquare" # legato 0.9 # amp 0.15
+\]" # sound "supersaw" # legato 0.9 # amp 0.35
 

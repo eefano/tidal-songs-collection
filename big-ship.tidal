@@ -4,9 +4,9 @@ hush
 
 setcps (120/60/4)
 
-d1 $ slow 10 $ n "a5'min'3 a4'min'3ii d5'maj'3i f5'maj'3 a4'min'3ii d5'maj'3i_2 \
-                \a5'min'3 a4'min'3ii as4'maj'3ii a4'min'3ii e5'maj'3_2 \
-                \c5'maj'3i f5'maj'3 a4'min'3ii d5'maj'3i_4"
+d1 $ slow 10 $ n "a5'min'3 a4'min'3'ii d5'maj'3'i f5'maj'3 a4'min'3'ii d5'maj'3'i_2 \
+                \a5'min'3 a4'min'3'ii as4'maj'3'ii a4'min'3'ii e5'maj'3_2 \
+                \c5'maj'3'i f5'maj'3 a4'min'3'ii d5'maj'3'i_4"
                  # legato 1.05
                  # sound "supersaw"
 

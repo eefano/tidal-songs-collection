@@ -6,8 +6,8 @@ hush
 setcps (140/60/4)
 
 d1 $ slow 1 $ stack [
-                        arp "<updown>" $ n ("e3'maj7'5")
-                        --,arp "<updown>" $ n ("e3'maj7'5 gs2'min'5ii")
+                        arp "<updown>" $ n ("f3'min7'8")
+                        --,arp "<updown>" $ n ("e3'maj7'5 gs2'min'5'ii")
                         --,slow 1 $ arp "<pinkyupdown>" $ n ("e5'maj7'3")
                         ]
   # sound "supersaw"

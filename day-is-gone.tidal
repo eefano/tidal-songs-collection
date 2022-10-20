@@ -6,13 +6,13 @@ hush
 setcps (143/60/4)
 
 
-d1 $ slow 10 $ n "[f4'maj'3ii [g4'sus4'3i_2 g4'maj'3i_3] cs4'maj'3ii ds4'maj'3ii]*4" # sound "supersaw" # amp 0.3
+d1 $ slow 10 $ n "[f4'maj'3'ii [g4'sus4'3'i_2 g4'maj'3'i_3] cs4'maj'3'ii ds4'maj'3'ii]*4" # sound "supersaw" # amp 0.3
 
 d3 $ slow 10 $ n "[f3*5 g3*5 cs3*5 ds3*5]*4" # sound "supersquare" # amp 0.8
 
 
---d1 $ arp "up" $ slow 10 $ n "[d4'min'5ii d4'min'5ii d4'min'5ii d4'min'5ii]*4" # sound "supersaw"
-d1 $ slow 10 $ n "[d4'min'3i c4'maj'3i g3'maj'3i as3'6'3ii]*4" # sound "supersaw"
+--d1 $ arp "up" $ slow 10 $ n "[d4'min'5'ii d4'min'5'ii d4'min'5'ii d4'min'5'ii]*4" # sound "supersaw"
+d1 $ slow 10 $ n "[d4'min'3'i c4'maj'3'i g3'maj'3'i as3'6'3'ii]*4" # sound "supersaw"
 
 d3 $ slow 10 $ n "[d3*5 c3*5 b2*5 as2*5]*4" # sound "supersquare" # amp 0.8
 
